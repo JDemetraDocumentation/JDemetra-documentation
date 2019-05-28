@@ -1,0 +1,9 @@
+- title: "Introduction"
+  file: "index"
+- title: "Installing JDemetra+"
+  file: "installing-jdemetra"
+- title: "Data sources"
+  file: "datasources"
+- title: "A demonstration"
+  file: "demonstration"
+
