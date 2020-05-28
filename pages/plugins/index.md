@@ -8,7 +8,7 @@ order: 0
 <br/>
 A plugin is a software component that can extend JDemetra+ functionalities. 
 Plugins can be shared between the users and installed individually. The installation procedure is decribed in the [dedicated item](../reference-manual/tools.html#plugins) of the Reference Manual section.
-The list below presents the plugins developed by the Bundesbank and available <a href="https://immurb.github.io/" target="_blank">here</a>.
+The list below presents the plugins developed by the Bundesbank and available <a href="https://bbkrd.github.io/" target="_blank">here</a>.
 #### **Concur**<br>
 The plug-in ConCur supports the controlled current adjustment approach. It supports the storage of the current components and offers graphical tools to compare forecasted and re-estimated figures. Furthermore, a pre-defined summary of the output containing the most important quality measures can be exported to HTML files.
 #### **KIX**<br>
