@@ -5,7 +5,7 @@ tagline: technical documentation for JDemetra+ using GitHub Pages
 description: Basics
 ---
 <br/>
-The current pages refer only to capabilities and functions of JDemetra+ versions 2.x. 
+The current pages refer only to capabilities and functions of JDemetra+ versions 2.2.3.
 The latest releases and information on improvements and bug fixes can be obtained 
 through <a href="https://github.com/jdemetra/jdemetra-app/releases/" target="_blank">GitHub</a>.
 
