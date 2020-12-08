@@ -8,8 +8,8 @@ description: Basics
 
 The *Current adjustment (AO approach)* strategy means that **the ARIMA
 model, outliers and other regression variables are not re-identified and
-the values of the associated coefficients are fixed**. The transformation
-type also remains unchanged.
+the values of the associated coefficients are fixed. The transformation
+type also remains unchanged**.
 
 **All new observations are automatically classified as additive outliers**
 and corresponding coefficients are estimated during the regression
@@ -24,7 +24,7 @@ option **(right)**. No element of the previous model has changed except all
 coefficient values are now fixed, hence the absence of p-values, scores
 and of the correlation of estimates matrix in the *Summary*. The original
 outlier (April 2006) is still in the refreshed model, with its fixed
-coefficient (its status went from "pre-specified to "fixed"). The only
+coefficient (its status went from "pre-specified" to "fixed"). The only
 difference is the addition of an intervention variable for the added
 month, September 2020. It can be seen at the end of the *Summary* and in
 the *Regressor* panel.

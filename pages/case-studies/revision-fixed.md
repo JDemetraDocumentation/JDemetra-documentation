@@ -5,11 +5,11 @@ tagline: technical documentation for JDemetra+ using GitHub Pages
 description: Basics
 ---
 The *Partial concurrent adjustment → Fixed model* strategy means that
-the ARIMA model, outliers and other regression **variables are not
+**the ARIMA model, outliers and other regression variables are not
 re-identified and the values of the associated coefficients are
 fixed**. In particular, **new outliers cannot be added** to the model and
-**neither calendar variables nor the outliers type** can be changed. The
-transformation type remains unchanged.
+**neither calendar variables nor the outliers type can be changed. The
+transformation type remains unchanged**.
 
 The example below shows the initial model **(left)** and the
 results of the refreshment procedure with the *Partial concurrent
