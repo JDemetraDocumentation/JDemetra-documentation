@@ -4,22 +4,24 @@ title: Partial concurrent adjustment → Estimate regression coefficients + Last
 tagline: technical documentation for JDemetra+ using GitHub Pages
 description: Basics
 ---
-The *Partial concurrent adjustment → Estimate regression coefficients +
-Last outliers* strategy means that the ARIMA model, outliers (except
-for the last year of the sample) and other regression
-parameters are not re-identified. All parameters of the RegARIMA model
-are re-estimated. The software tests for outliers in the last year of the
-data span and will include in the model those which are statistically
-significant. The transformation type remains unchanged.
+The *Partial concurrent adjustment → Estimate regression coefficient +
+Last outliers* strategy means that **the ARIMA model, outliers and other
+regression variables are not re-identified, except the
+outliers in the last year of the series**. Indeed, JDemetra+ has a
+test procedure to detect outliers.
 
-The picture below presents the initial model (on the left) and the
-results of the refreshment procedure with the *Partial* *concurrent
-adjustment → Estimate regression coefficients + Last outliers* option (on
-the right). The parameters of the ARIMA part have been re-estimated and
-their values have been updated. Also the regression coefficients have been
-re-estimated. The number of estimated coefficients in the revised model
-is larger than the initial model because an additional outlier has been
-identified in the last year of the data span.
+Additionally to this "outlier-refreshment" procedure, all coefficients of
+the RegARIMA model are re-estimated. The transformation type remains
+unchanged.
+
+The example below shows the initial model **(left)** and the
+results of the refreshment procedure with the *Partial concurrent
+adjustment → Estimate regression coefficient + Last outliers* option
+**(right)**. Both ARIMA and regression coefficients have
+been re-estimated. However, the number of estimated coefficients in
+the revised model is larger than in the initial model because an
+additional outlier has been identified in the last year of the data
+span (the level shift in January 2017).
 
 {: .text-center.image-wrapper}
 

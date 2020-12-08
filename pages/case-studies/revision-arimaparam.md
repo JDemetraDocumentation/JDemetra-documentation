@@ -4,21 +4,21 @@ title: Partial concurrent adjustment → Estimate regression coefficients + Arim
 tagline: technical documentation for JDemetra+ using GitHub Pages
 description: Basics
 ---
-The *Partial concurrent adjustment → Estimate regression coefficients +
-Arima parameters* strategy means that the ARIMA model, outliers and
-other regression parameters are not re-identified. All parameters of the
-RegARIMA model are re-estimated but the explanatory variables remain the
-same. The transformation type remains unchanged.
+The *Partial concurrent adjustment → Estimate regression coefficient +
+Arima parameters* strategy means that **the ARIMA model, outliers and
+other regression variables are not re-identified. Every
+coefficient of the RegARIMA model is re-estimated but the
+explanatory variables and ARIMA orders remain the same. The
+transformation type remains unchanged**.
 
-The picture below presents the initial model (on the left) and the
-results of the refreshment procedure with the *Partial* *concurrent
+The example below shows the initial model **(left)** and the
+results of the refreshment procedure with the *Partial concurrent
 adjustment → Estimate regression coefficient + Arima parameters* option
-(on the right). The parameters of the ARIMA part have been re-estimated
-and their values have been updated. Also regression coefficients have
-been re-estimated and the number of estimated coefficients in the
+**(right)**. The ARIMA and regression coefficients have been
+re-estimated, thus the number of estimated coefficients in the
 revised model is the same as in the initial model (i.e. 16 estimated
-coefficients). The structure of the model remains unchanged while all
-coefficients have been updated.
+parameters). The transformation type and model structure remain
+unchanged while all coefficients have been updated.
 
 {: .text-center.image-wrapper}
 
