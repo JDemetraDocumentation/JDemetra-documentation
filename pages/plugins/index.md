@@ -9,23 +9,6 @@ order: 0
 A plugin is a software component that can extend JDemetra+ functionalities. 
 Plugins can be shared between the users and installed individually. The installation procedure is decribed in the [dedicated item](../reference-manual/tools.html#plugins) of the Reference Manual section.
 
-The list below presents the plugins <a href="https://bbkrd.github.io/" target="_blank">developed by the Bundesbank</a> and the National Bank of Belgium..
-#### **Concur**<br>
-The plug-in ConCur supports the controlled current adjustment approach. It supports the storage of the current components and offers graphical tools to compare forecasted and re-estimated figures. Furthermore, a pre-defined summary of the output containing the most important quality measures can be exported to HTML files.
-#### **KIX**<br>
-The plug-in KIX (German for chain-linked index) has been designed to facilitate the handling of this index type. It offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth.
-#### **KIX 2.0**<br>
-KIX 2.0 offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth following the concept of annual overlap. Contributions to growth are calculated with the partial contribution to growth approach.
-#### **KIX_E**<br>
-KIX_E offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth following the concept of one-period overlap. Contributions to growth are calculated with the aid of the Ribe (1999) contribution to growth approach.
-#### **KIX-CC**<br>
-The program KIX-CC offers for continuously chain-linked indices the aggregation or disaggregation of two or more indices, or the calculation of contributions to growth.
-#### **SpecParser**<br>
-The plug-in SpecParser is designed to migrate already existing specification files (X-12-ARIMA compatible .spc- and .mta-(meta)-files) to JD+. The plugin automatically translates all relevant information (e.g. time series data, regression variables, specifications) from the X-12-ARIMA spc-files and constructs an analogous seasonal adjustment document in JD+.
-#### **TransReg**<br>	
-The plug-in TransReg allows the user to carry out grouping and centring of user-defined regression variables in JD+.
-	
-=======
 The list below presents the plugins developed by the Bundesbank and the National Bank of Belgium.
 
 ### Bundesbank plug-ins
@@ -36,33 +19,37 @@ The list below presents the plugins developed by the Bundesbank and the National
     <th>Short Description</th>
   </tr>
   <tr>
-    <td colspan="2"><a href="https://immurb.github.io/pages/concur/">ConCur</a></td>
+    <td colspan="2"><a href="https://bbkrd.github.io/pages/concur/">ConCur</a></td>
     <td>The plug-in ConCur supports the controlled current adjustment approach. It supports the storage of the current components and offers graphical tools to compare forecasted and re-estimated figures. Furthermore, a pre-defined summary of the output containing the most important quality measures can be exported to HTML files.</td>
   </tr>
   <tr>
-    <td style = "border-right: 0px" rowspan="4"><a href="https://immurb.github.io/pages/kix/">KIX</a></td>
+    <td style = "border-right: 0px" rowspan="4"><a href="https://bbkrd.github.io/pages/kix/">KIX</a></td>
     <td style = "border-left: 0px"></td>
     <td>The plug-in KIX (German for chain-linked index) has been designed to facilitate the handling of this index type. It offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth.</td>
   </tr>
   <tr>
-    <td><a href="https://immurb.github.io/pages/kix/kix2/">KIX2.0</a></td>
+    <td><a href="https://bbkrd.github.io/pages/kix/kix2/">KIX2.0</a></td>
     <td>KIX 2.0 offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth following the concept of annual overlap. Contributions to growth are calculated with the partial contribution to growth approach.</td>
   </tr>
   <tr>
-    <td><a href="https://immurb.github.io/pages/kix/kixe/">KIXE</a></td>
+    <td><a href="https://bbkrd.github.io/pages/kix/kixe/">KIXE</a></td>
     <td>KIX_E offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth following the concept of one-period overlap. Contributions to growth are calculated with the aid of the Ribe (1999) contribution to growth approach.</td>
   </tr>
   <tr>
-    <td><a href="https://immurb.github.io/pages/kix/kixcc/">KIX&#8209;CC</a></td>
+    <td><a href="https://bbkrd.github.io/pages/kix/kixcc/">KIX&#8209;CC</a></td>
     <td>The program KIX-CC offers for continuously chain-linked indices the aggregation or disaggregation of two or more indices, or the calculation of contributions to growth.</td>
   </tr>
   <tr>
-    <td colspan="2"><a href="https://immurb.github.io/pages/specparser/">SpecParser</a></td>
+    <td colspan="2"><a href="https://bbkrd.github.io/pages/specparser/">SpecParser</a></td>
     <td>The plug-in SpecParser is designed to migrate already existing specification files (X-12-ARIMA compatible .spc- and .mta-(meta)-files) to JD+. The plugin automatically translates all relevant information (e.g. time series data, regression variables, specifications) from the X-12-ARIMA spc-files and constructs an analogous seasonal adjustment document in JD+.</td>
   </tr>
   <tr>
-    <td colspan="2"><a href="https://immurb.github.io/pages/transreg/">TransReg</a></td>
+    <td colspan="2"><a href="https://bbkrd.github.io/pages/transreg/">TransReg</a></td>
     <td>The plug-in TransReg allows the user to carry out grouping and centring of user-defined regression variables in JD+.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://bbkrd.github.io/pages/xlsx2ws/">Xlsx2Ws</a></td>
+    <td>The plug-in Xlsx2Ws allows the converting of specific workspace information to a xlsx file and vice versa.</td>
   </tr>
 </table>
 
